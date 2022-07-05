@@ -17,7 +17,7 @@ class SendMessageService{
         
                 //console.log(response)
                 if(response.data.success){
-                    console.log(response.data)
+                    //console.log(response.data)
                     console.log({
                         'response': 'Message sent'
                     })

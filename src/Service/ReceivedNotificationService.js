@@ -1,6 +1,6 @@
 class ReceivedNotificationService{
-    async handler(){
-        console.log("Message Received!")
+    async handler(whereMessageCameFrom = "Teste"){
+        console.log(`Message Received from ${whereMessageCameFrom}`)
     }
 }
 
