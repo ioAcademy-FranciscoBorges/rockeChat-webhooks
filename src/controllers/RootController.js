@@ -1,6 +1,6 @@
 const { req, res }=  require('express');
-const SendMessageService = require("../Service/SendMessageService")
-const ReceivedNotificationService = require("../Service/ReceivedNotificationService")
+const SendMessageService = require("../service/SendMessageService")
+const ReceivedNotificationService = require("../service/ReceivedNotificationService")
 
 const sendMessageService = new SendMessageService();
 const receivedNotificationService = new ReceivedNotificationService();
